@@ -1,0 +1,15 @@
+impot math
+
+def PpKurli(r):
+    return 4*math.pi*r**2
+
+
+while true:
+    inp = input():
+    if inp == "a":
+        data = float(input())
+        print(PpKuli(data))
+    elif inp == "b":
+        break
+    else:
+        print("nie ma takiej komendy ku-")
